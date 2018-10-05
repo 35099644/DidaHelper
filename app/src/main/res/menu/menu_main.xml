@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.shaoxiaofei.didahelper.MainActivity" >
+    <item
+        android:id="@+id/ac_main_menu_confirm"
+        android:title="@string/confirm"
+        app:showAsAction="always"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/ac_main_menu_join"
+        android:orderInCategory="100"
+        android:title="@string/join"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ac_main_menu_notice"
+        android:orderInCategory="200"
+        android:title="@string/notice"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,13 @@
+<accessibility-service
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged"
+    android:packageNames="com.didapinche.booking,com.sdu.didi.psnger,com.example.shaoxiaofei.dida"
+    android:accessibilityFeedbackType="feedbackSpoken"
+    android:description="@string/server_description"
+    android:notificationTimeout="100"
+    android:accessibilityFlags="flagDefault"
+
+    android:canRetrieveWindowContent="true"
+    android:canRequestTouchExplorationMode="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+
+    <!--typeViewClicked|typeViewFocused||typeWindowStateChanged|typeWindowContentChanged-->

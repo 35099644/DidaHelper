@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">DidaHelper</string>
+    <string name="server_description">卓绝之行，可以风动四方</string>
+
+    <!--below is switches's field-->
+    <string name="service_on">智能抢单开启:</string>
+    <string name="service_off">智能抢单关闭:</string>
+    <string name="realtime_off">不接实时单:</string>
+    <string name="realtime_on">接实时单:</string>
+    <string name="book_off">不接预约单:</string>
+    <string name="book_on">接预约单:</string>
+    <string name="airport_off">不接机场单:</string>
+    <string name="airport_on">接机场单:</string>
+    <string name="consumer_distance">乘客最大距离</string>
+    <string name="whole_distance">全程最小距离</string>
+
+    <!--below is sp's field-->
+    <string name="realtime">实时</string>
+    <string name="book">预约</string>
+    <string name="airport">机场单</string>
+    <string name="consumer_distance_realtime">实时乘客距离</string>
+    <string name="whole_distance_realtime">实时全程距离</string>
+    <string name="consumer_distance_book">预约乘客距离</string>
+    <string name="whole_distance_book">预约全程距离</string>
+
+    <!--below is login activity window's fields-->
+    <string name="phonenumber">手机号</string>
+    <string name="login">登录</string>
+
+    <!--below is mianactivity part-->
+    <string name="positive">确定</string>
+    <string name="negative">取消</string>
+    <string name="confirm">保存配置</string>
+    <string name="alert">警告</string>
+    <string name="leave_away">离开后，将会关闭抢单服务</string>
+    <string name="join">推广</string>
+    <string name="join_content">推广返利20%，请联系作者微信：413173163</string>
+    <string name="notice">注意事项</string>
+    <string name="notice_content">1.抢单服务有可能在内存不足时候被系统杀死，请根据界面提示手动重启服务\n2.请确保电话存储和浮窗权限开启，确保程序能正常工作</string>
+
+    <string name="service_on_tint">ON</string>
+    <string name="service_off_tint">OFF</string>
+
+</resources>
